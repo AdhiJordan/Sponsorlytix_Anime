@@ -127,6 +127,7 @@ function Dashboard() {
                                         >
                                             <img
                                                 src={anime.images.jpg.image_url}
+                                                alt={anime.title}
                                                 height="250px"
                                                 className="object-fit"
                                             />
